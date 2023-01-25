@@ -1,4 +1,11 @@
 #!/usr/bin/python3
+"""
+Module 100-singly_linked_list
+Defines class Node (with private data and next_node)
+Defines class SinglyLinkedList (with private head and public sorted_insert)
+"""
+
+
 class Node:
     def __init__(self, data, next_node=None):
         self.data = data
