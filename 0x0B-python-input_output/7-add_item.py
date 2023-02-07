@@ -22,7 +22,7 @@ filename = "add_item.json"
 
 try:
     existing_content = load_from_json_file(filename)
-except FileNOtFoundError:
+except FileNotFoundError:
     existing_content = []
 
 save_to_json_file(existing_content + argv[1:], filename)
