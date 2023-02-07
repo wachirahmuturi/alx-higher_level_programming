@@ -23,7 +23,6 @@ class Student():
     def to_json(self):
         """
         Returns a dictionary
-   
         Return:Only return dict of attrs given to us
         Return entire dict if no attrs given
         """
@@ -35,4 +34,3 @@ class Student():
                 if att in self.__dict__.keys():
                     dic[att] = self.__dict__[att]
             return dic
-
